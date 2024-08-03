@@ -22,8 +22,14 @@ motor2.setPosition(float('inf'))
 motor3.setPosition(float('inf'))
 
 motor1.setVelocity(0)
-motor2.setVelocity(-5)
-motor3.setVelocity(5)
+### jwc o motor2.setVelocity(-5)
+### jwc o motor3.setVelocity(5)
+
+# jwc rather than straight, try slow spin-turn
+# * 5 too fast, try 1
+#
+motor2.setVelocity(1)
+motor3.setVelocity(1)
 
 distance_sensor = robot.getDevice('ds')
 distance_sensor.enable(timestep)
