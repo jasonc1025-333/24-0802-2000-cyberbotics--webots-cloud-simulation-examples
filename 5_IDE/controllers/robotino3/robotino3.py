@@ -1,5 +1,7 @@
 """robotino3 controller."""
 
+# jwc 24-0802-2040 Update robotino3.py: Restore Original 'Go Straight' Then Spin when Detect Obstacle
+
 # You may need to import some classes of the controller module. Ex:
 #  from controller import Robot, Motor, DistanceSensor
 from controller import Supervisor, Motor, DistanceSensor
